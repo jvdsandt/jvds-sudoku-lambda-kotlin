@@ -2,17 +2,32 @@ package com.cloudctrl.sudoku.lambda;
 
 public class Response {
 
-    public Response(String row) {
-        this.numbersRow = row;
+    public Response(Integer[][] rows) {
+        this(rows, "Solved");
     }
 
-    public String getNumbersRow() {
-        return numbersRow;
+    public Response(Integer[][] rows, String message) {
+        this.rows = rows;
+        this.message = message;
     }
 
-    public void setNumbersRow(String numbersRow) {
-        this.numbersRow = numbersRow;
+    public Integer[][] getRows() {
+        return rows;
     }
 
-    private String numbersRow;
+    public void setRows(Integer[][] rows) {
+        this.rows = rows;
+    }
+
+    private Integer[][] rows;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    private String message;
 }
