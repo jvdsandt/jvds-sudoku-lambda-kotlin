@@ -9,7 +9,7 @@
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <kotlin.version>1.1.51</kotlin.version>
+        <kotlin.version>1.2.51</kotlin.version>
         <junit.version>4.12</junit.version>
     </properties>
 
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>com.cloudctrl.sudoku</groupId>
             <artifactId>jvds-sudoku-model-kotlin</artifactId>
-            <version>0.2</version>
+            <version>0.4</version>
         </dependency>
 
         <dependency>
