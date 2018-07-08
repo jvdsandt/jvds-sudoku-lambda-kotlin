@@ -2,6 +2,9 @@ package com.cloudctrl.sudoku.lambda;
 
 public class Response {
 
+    private Integer[][] rows;
+    private String message;
+
     public Response(Integer[][] rows) {
         this(rows, "Solved");
     }
@@ -19,8 +22,6 @@ public class Response {
         this.rows = rows;
     }
 
-    private Integer[][] rows;
-
     public String getMessage() {
         return message;
     }
@@ -28,6 +29,4 @@ public class Response {
     public void setMessage(String message) {
         this.message = message;
     }
-
-    private String message;
 }

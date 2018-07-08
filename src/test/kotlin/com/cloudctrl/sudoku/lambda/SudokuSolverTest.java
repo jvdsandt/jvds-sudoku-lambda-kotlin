@@ -12,7 +12,6 @@ public class SudokuSolverTest {
 
         Response response = new SudokuSolver().handleRequest(request, null);
         assertEquals("Solved", response.getMessage());
-        System.out.println(response.getRows().toString());
     }
 
     @Test
