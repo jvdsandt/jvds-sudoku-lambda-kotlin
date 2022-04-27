@@ -9,7 +9,7 @@
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <kotlin.version>1.2.51</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <junit.version>4.12</junit.version>
     </properties>
 
