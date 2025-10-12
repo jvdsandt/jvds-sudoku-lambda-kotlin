@@ -1,7 +1,9 @@
 package com.cloudctrl.sudoku.lambda;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class SudokuSolverTest {
 
